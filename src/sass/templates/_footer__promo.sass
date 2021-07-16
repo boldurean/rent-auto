@@ -1,0 +1,172 @@
+.footer
+  &__promo
+    padding: 20.1rem 0 10.8rem 0
+    background: $dark url("../img/promo-bg-auto.jpg") no-repeat center / cover
+    &-col
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+    &-row
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+    &-description
+      max-width: 21.2rem
+      margin-top: 1.8rem
+      +sansBold
+      font-weight: 700
+      font-size: 1.6rem
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.75
+      letter-spacing: -0.4px
+      text-align: left
+      color: $light
+      &--long
+        max-width: 27rem
+      &--info
+        width: 25rem
+        +sansReg
+        font-size: 1.3rem
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        line-height: 1.85
+        letter-spacing: normal
+        text-align: left
+        color: #777777
+    &-icon
+      &--wrap
+        height: 8.4rem
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 1.8rem
+        +sansReg
+        font-size: 2.4rem
+        font-weight: 600
+        font-stretch: normal
+        font-style: normal
+        line-height: 1.5
+        letter-spacing: normal
+        text-align: left
+        color: $light
+      &--num
+        margin: 0 1.5rem
+    &-image
+      margin-top: 7rem
+      margin-bottom: 1.6rem
+    &-title
+      margin: 0
+      text-align: left
+      +istokBold
+      font-size: 8.4rem
+      font-stretch: normal
+      font-style: normal
+      line-height: 1
+      letter-spacing: -3.36px
+      color: $light
+      &-wrap
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+      &-items
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        margin-left: 3.8rem
+        .first
+          +sansReg
+          font-size: 2.4rem
+          font-weight: 600
+          font-stretch: normal
+          font-style: normal
+          letter-spacing: normal
+          color: #17bebb
+        .second
+          +istokReg
+          font-size: 3.6rem
+          font-weight: normal
+          font-stretch: normal
+          font-style: normal
+          line-height: 1.63
+          letter-spacing: normal
+          color: #777777
+    &-subtitle
+      margin: 0 0 8.3rem 0
+      padding-left: 2rem
+      text-align: center
+      +sansReg
+      font-size: 2.4rem
+      font-weight: 500
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.5
+      letter-spacing: 0.8px
+      color: $light
+    &-block
+      width: 233px
+      height: 207px
+      padding: 2.6rem 4.5rem 3.6rem 5.4rem
+
+.promo
+  &-header
+    padding-left: 2rem
+    margin-bottom: 1.1rem
+
+.block-one, .block-two
+  &__wrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__title
+    max-width: 53px
+    +sansReg
+    font-size: 13px
+    font-weight: normal
+    font-stretch: normal
+    font-style: normal
+    line-height: 1.85
+    letter-spacing: normal
+    text-align: left
+    color: $light
+  &__item
+    display: block
+    margin: 37px 0 0 0
+    +istokBold
+    font-size: 36px
+    font-weight: bold
+    font-stretch: normal
+    font-style: normal
+    letter-spacing: normal
+    text-align: right
+    color: $light
+    &:after
+      display: block
+      content: ''
+      +sansReg
+      font-size: 13px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.85
+      letter-spacing: normal
+      text-align: right
+      color: #777777
+.block-one
+  margin-bottom: 4.5rem
+  background: url("../img/promo-box-1.png") no-repeat center
+  &__item
+    &:after
+      content: '5 ст.'
+  &__icon
+    width: 26px
+    height: 29px
+.block-two
+  background: url("../img/promo-box-2.png") no-repeat center
+  &__item
+    &:after
+      content: '2020 г.'
+  &__icon
+    width: 29px
+    height: 23px

@@ -1,0 +1,57 @@
+.modal
+  position: fixed
+  z-index: 199
+  opacity: 0
+  visibility: hidden
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba($dark, 0.6)
+  display: flex
+  justify-content: center
+  align-items: center
+  &__dialog
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    position: relative
+    max-width: 50rem
+    padding: 3rem 3rem
+    color: $dark
+    background: #f7f4f2
+    background-size: cover
+    &-title
+      margin-top: 2rem
+      text-align: center
+      +sansBold
+      font-size: 3.6rem
+    &-subtitle
+      text-align: center
+      +sansReg
+      font-size: 2rem
+    &-button
+      +istokBold
+      padding: 1.3rem 11rem
+      text-transform: uppercase
+      font-size: 1.6rem
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.75
+      letter-spacing: 0.64px
+      text-align: center
+      border: none
+      color: $light
+      background-color: $orange
+      margin-bottom: 1.8rem
+      cursor: pointer
+      outline: none
+
+.visible
+  opacity: 1
+  visibility: visible
+

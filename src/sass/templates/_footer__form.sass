@@ -1,0 +1,211 @@
+.footer
+  &-form
+    padding-bottom: 13.5rem
+  &__col
+    &-one
+      flex-basis: 25%
+    &-two
+      flex-basis: 33%
+      display: flex
+      justify-content: center
+      padding-top: 2.6rem
+  &__form
+    position: relative
+    &-title
+      +istokBold
+      margin: 0
+      max-width: 19.5rem
+      font-size: 3.6rem
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.33
+      letter-spacing: -1.44px
+      text-align: left
+      color: $light
+    &-input
+      width: 30.6rem
+      height: 5.4rem
+      margin-bottom: 4.5rem
+      border: none
+      border-bottom: 2px solid #444444
+      background-color: transparent
+      outline: none
+      font-size: 16px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 5.4rem
+      letter-spacing: 0.24px
+      text-align: left
+      color: $light
+      &::placeholder
+        padding-top: 1rem
+        +sansReg
+        font-size: 1.6rem
+        letter-spacing: 0.24px
+        color: $light
+        opacity: 1
+    &-button
+      max-height: 5.4rem
+      display: block
+      +istokBold
+      padding: 1.3rem 11rem
+      text-transform: uppercase
+      font-size: 1.6rem
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.75
+      letter-spacing: 0.64px
+      text-align: center
+      border: none
+      color: $light
+      background-color: $orange
+      margin-bottom: 1.8rem
+    &-promocode
+      +sansReg
+      display: block
+      font-size: 13px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.85
+      letter-spacing: normal
+      text-align: center
+      color: #777777
+      text-decoration: none
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    border-top: 1px solid #444444
+    padding-top: 20rem
+  &__col
+    &-heading
+      display: flex
+      align-items: flex-start
+    &-title
+      +istokBold
+      margin: 0 4rem 0 0
+      font-size: 8.4rem
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1
+      letter-spacing: normal
+      text-align: right
+      color: $light
+
+    &-pricetag
+      +sansReg
+      font-size: 24px
+      font-weight: 600
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.5
+      letter-spacing: normal
+      text-align: left
+      color: #777777
+
+    &-oldprice
+      +sansReg
+      margin: 0
+      font-size: 2.4rem
+      font-weight: 600
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.5
+      letter-spacing: normal
+      text-align: left
+      color: #17bebb
+      text-decoration: line-through
+
+
+
+
+
+.select
+  position: relative
+  margin-bottom: 45px
+  &:after
+    content: ''
+    position: absolute
+    right: 33px
+    top: 42px
+    width: 12px
+    height: 8px
+    background: url("../img/select-icon.svg") no-repeat center
+  &-trigger
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 40px
+    width: 306px
+    height: 90px
+    border-radius: 3px
+    border-width: 1px
+    border-style: solid
+    border-color: #444444
+    background-color: #222222
+    color: white
+    &-days
+      +sansBold
+      font-size: 24px
+      font-weight: 600
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.5
+      letter-spacing: normal
+      text-align: left
+      color: $light
+    &-discount
+      +sansReg
+      font-size: 16px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.75
+      letter-spacing: 0.24px
+      text-align: left
+      color: #777777
+      margin-right: 60px
+  &-list
+    position: absolute
+    top: 100%
+    right: 0
+    left: 0
+    list-style: none
+    display: none
+    align-items: center
+    margin: 0
+    padding: 0 40px
+    border-width: 0 1px 1px
+    border-style: solid
+    border-color: #444444
+    width: 306px
+    border-radius: 0 0 3px 3px
+    background-color: #222222
+    color: white
+    &-discount
+      margin-right: 60px
+    li
+      width: 100%
+      justify-content: space-between
+      display: flex
+      align-items: center
+      padding: 20px 0
+
+.active .select-list
+  display: flex
+  flex-direction: column
+
+.active .select-trigger
+  border-bottom-left-radius: 0
+  border-bottom-right-radius: 0
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+*, *:before, *:after
+  box-sizing: border-box
+
+html
+  font-size: 10px
+
+body
+  +sansReg
+
+img
+  max-width: 100%
+
+a
+  text-decoration: none
+
+.orange
+  color: $orange
+
+.light
+  color: $light
+
+.dark
+  color: $dark
+
+.bold
+  font-weight: 700
+
+.col-30
+  max-width: 30%
+
+.col-70
+  max-width: 70%
+
+div
+  &.invalid
+    color: tomato
+    position: absolute
+    top: 20rem
+    font-size: 15px

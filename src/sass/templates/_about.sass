@@ -1,0 +1,126 @@
+.about
+  padding: 19.8rem 0 18rem 0
+  background-color: #f7f4f2
+  &__container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    max-width: 1261px
+    width: 90%
+    margin: 0 auto
+  &__content
+    display: flex
+    flex-direction: column
+    max-width: 37.1rem
+  &__heading
+    margin: 0 0 63px 0
+    +istokBold
+    font-size: 36px
+    line-height: 1.33
+    letter-spacing: -1.44px
+    color: $dark
+    max-width: 200px
+  &__title
+    +sansReg
+    font-size: 24px
+    font-weight: 600
+    line-height: 1.5
+    letter-spacing: -0.6px
+    color: $dark
+    margin-bottom: 34px
+  &__subtitle
+    +sansReg
+    max-width: 310px
+    font-size: 16px
+    line-height: 1.75
+    letter-spacing: 0.24px
+    text-align: left
+    color: #444444
+    margin-bottom: 19px
+    &-offer
+      +sansReg
+      font-size: 13px
+      line-height: 1.85
+      letter-spacing: normal
+      color: #777777
+  &__slider
+    position: relative
+    max-width: 70.2rem
+    min-height: 39.5rem
+    .slick-track
+      display: flex
+    .slick-list
+      overflow: hidden
+    .slick-arrow
+      cursor: pointer
+      position: absolute
+    .slick-arrow.slick-prev
+      background: $light url("../img/arrow-prev.svg") no-repeat center
+      font-size: 0
+      top: 50%
+      margin-top: -27px
+      left: -4.3rem
+      width: 12px
+      height: 12px
+      border: 1px solid $light
+      border-radius: 50%
+      padding: 25px
+      z-index: 10
+      outline: none
+    .slick-arrow.slick-next
+      background: $light url("../img/arrow-next.svg") no-repeat center
+      font-size: 0
+      margin-top: -27px
+      top: 50%
+      right: -43px
+      width: 12px
+      height: 12px
+      border: 1px solid $light
+      border-radius: 50%
+      padding: 25px
+      z-index: 10
+      outline: none
+    .slick-active
+      outline: none
+  &__col
+    position: relative
+    &:first-child
+      margin-right: 4rem
+  &__pagination
+    &-slider
+      position: absolute
+      bottom: -8rem
+      left: 10rem
+      display: flex
+      align-items: center
+    &-num
+      +sansReg
+      font-size: 24px
+      font-weight: 600
+      line-height: 1.5
+      letter-spacing: -0.96px
+      text-align: left
+      color: #222222
+  &__total
+    &-num
+      +sansReg
+      font-size: 13px
+      line-height: 1.85
+      letter-spacing: normal
+      text-align: right
+      color: #777777
+      &:first-child
+        margin-right: 1.7rem
+  &__current
+    max-width: 25px
+    min-height: 20px
+    margin-right: 4.3rem
+    .slick-track
+      display: flex
+    .slick-list
+      overflow: hidden
+
+
+
+

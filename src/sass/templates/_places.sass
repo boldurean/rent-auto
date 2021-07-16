@@ -1,0 +1,153 @@
+.places
+  height: auto
+  background-color: #f7f4f2
+  padding-bottom: 19.8rem
+  &__video
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    max-width: 100.3rem
+    min-height: 50.6rem
+    background:  url("../img/video-bg.png") no-repeat center
+    background-size: cover
+    z-index: 5
+    &-wrap
+      position: relative
+      margin-top: -29.6rem
+      margin-bottom: 13.5rem
+  &__heading
+    position: absolute
+    top: 4.8rem
+    left: 0
+  &__title
+    max-width: 36rem
+    +istokBold
+    font-size: 3.6rem
+    font-stretch: normal
+    font-style: normal
+    font-weight: bold
+    line-height: 1.33
+    letter-spacing: -1.44px
+    color: $light
+    margin-bottom: 0
+  &__subtitle
+    +sansReg
+    font-size: 1.3rem
+    font-stretch: normal
+    font-style: normal
+    line-height: 1.85
+    letter-spacing: normal
+    color: $grey
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__description
+    margin-top: 0
+    max-width: 28rem
+    +sansSemi
+    font-size: 2.4rem
+    margin-bottom: 8.8rem
+    line-height: 1.5
+    letter-spacing: 0.2px
+    &--orange
+      color: $orange
+  &__all-videos
+    display: flex
+    align-items: center
+    font-size: 1.6rem
+    font-weight: 600
+    font-stretch: normal
+    font-style: normal
+    line-height: 1.75
+    letter-spacing: -0.1px
+    color: $black
+    &:visited
+      color: $black
+    &:after
+      content: ''
+      width: 20px
+      height: 12px
+      margin-left: 1.9rem
+      background: url("../img/camera.svg") no-repeat center
+  &__slider
+    max-width: 690px
+    position: relative
+  .slick-track
+    display: flex
+  .slick-list
+    overflow: hidden
+  .slider-item
+    .image-wrap
+      position: relative
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-bottom: 26px
+      width: 306px
+      min-height: 172px
+      max-height: 172px
+      background: url("../img/swiper-video-2.jpg") no-repeat center
+      &::before
+        position: absolute
+        content: ''
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        width: 100%
+        height: 100%
+        opacity: 0
+        background: rgba($sky, 0.5) no-repeat center / cover
+    span
+      +sansReg
+      font-size: 13px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.85
+      letter-spacing: normal
+      text-align: left
+      color: #444444
+  .slick-arrow
+    position: absolute
+    cursor: pointer
+  .slick-arrow.slick-prev
+    background: $light url("../img/arrow-prev.svg") no-repeat center
+    font-size: 0
+    top: 39%
+    margin-top: -27px
+    left: -43px
+    width: 12px
+    height: 12px
+    border: 1px solid $light
+    border-radius: 50%
+    padding: 25px
+    z-index: 10
+    outline: none
+  .slick-arrow.slick-next
+    background: $light url("../img/arrow-next.svg") no-repeat center
+    font-size: 0
+    margin-top: -27px
+    top: 39%
+    right: 0
+    width: 12px
+    height: 12px
+    border: 1px solid $light
+    border-radius: 50%
+    padding: 25px
+    z-index: 10
+    outline: none
+  .slick-active
+    outline: none
+
+
+
+
+
+
+
+
+
+
